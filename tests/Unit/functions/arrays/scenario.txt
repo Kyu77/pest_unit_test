@@ -1,0 +1,22 @@
+sumArray()
+
+    Input: [1, 2, 3, 4] → Expected output: 10
+    Input: [-5, 5, 10] → Expected output: 10
+    Input: [] → Expected output: 0
+
+getMaxValue()
+
+    Input: [4, 7, 2, 9] → Expected output: 9
+    Input: [-3, -1, -7] → Expected output: -1
+    Input: [] → Expected output: null
+
+sortAssocArrayByValues()
+
+    Input: ['a' => 3, 'b' => 1, 'c' => 2] → Expected output: ['b' => 1, 'c' => 2, 'a' => 3]
+    Input: ['x' => 5, 'y' => 5, 'z' => 1] → Expected output: ['z' => 1, 'x' => 5, 'y' => 5]
+
+filterAssocArrayByThreshold()
+
+    Input: ['a' => 3, 'b' => 7, 'c' => 1], 4 → Expected output: ['b' => 7]
+    Input: ['x' => 10, 'y' => 20, 'z' => 5], 15 → Expected output: ['y' => 20]
+    Input: ['a' => 2, 'b' => 1], 5 → Expected output: []

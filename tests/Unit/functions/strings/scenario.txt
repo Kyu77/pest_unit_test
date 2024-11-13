@@ -1,0 +1,17 @@
+getWelcomeMessage()
+
+    Input: "john" → Expected output: "Welcome, John!"
+
+convertToUppercase()
+
+    Input: "hello" → Expected output: "HELLO"
+
+reverseString()
+
+    Input: "abcd" → Expected output: "dcba"
+
+generateGreeting()
+
+    Input: ("John", "09:00") → Expected output: "Good morning, John!"
+    Input: ("Alice", "15:00") → Expected output: "Good afternoon, Alice!"
+    Input: ("Bob", "20:30") → Expected output: "Good evening, Bob!"

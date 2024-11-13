@@ -1,0 +1,20 @@
+getSquare()
+
+    Input: 4 → Expected output: 16
+    Input: 2.5 → Expected output: 6.25
+
+isEven()
+
+    Input: 4 → Expected output: true
+    Input: 7 → Expected output: false
+
+calculateFactorial()
+
+    Input: 5 → Expected output: 120
+    Input: 0 → Expected output: 1
+    Input: -1 → Expected output: Exception
+
+calculateAverage()
+
+    Input: [1, 2, 3, 4, 5] → Expected output: 3.0
+    Input: [] → Expected output: Exception
