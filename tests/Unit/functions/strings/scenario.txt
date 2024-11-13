@@ -1,6 +1,6 @@
 getWelcomeMessage()
 
-    Input: "john" → Expected output: "Welcome, John!"
+    Input: "john" → Expected output: "Welcome, John!">
 
 convertToUppercase()
 
