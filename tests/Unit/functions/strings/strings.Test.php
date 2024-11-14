@@ -1,5 +1,10 @@
-<php
-it('welcome message for the given name', function () {
+<?php
+include "./src/functions/strings/getWelcomeMessage.php";
+include "./src/functions/strings/convertToUppercase.php";
+include "./src/functions/strings/generateGreeting.php";
+include "./src/functions/strings/reverseString.php";
+
+it("Input: 'john' → Expected output: 'Welcome, John!'", function () {
     $name = "john";
     $expectedOutput = "Welcome, John!";
     
@@ -57,5 +62,5 @@ it('generates an evening greeting based on name and time', function () {
     expect($result)->toBe($expectedOutput);
 });
 
-
+?>
 
